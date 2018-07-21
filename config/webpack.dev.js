@@ -2,7 +2,7 @@ const path = require("path")
 
 module.exports = {
   entry: {
-    main: "./src/index.js"
+    main: "./src/main.js"
   },
   mode: "development",
   output: {
@@ -11,9 +11,7 @@ module.exports = {
     publicPath: "/"
   },
   devServer: {
-    inline: true,
-    contentBase: "dist",
-    port: 1234
+    contentBase: "dist"
   },
   module: {
     rules: [
