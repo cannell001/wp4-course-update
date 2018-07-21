@@ -2,6 +2,9 @@
   "name": "webpack-course",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.dev.js --open"
+  },
   "description": "Webpack: Beyond the Basics Course",
   "repository": "https://github.com/lawwantsin/webpack-course.git",
   "license": "MIT",
