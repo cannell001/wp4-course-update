@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./config/webpack.dev.js --open"
+    "start": "webpack-dev-server --config ./config/webpack.dev.js --open",
+    "babel": "./node_modules/.bin/babel"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/lawwantsin/webpack-course#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
     "css-loader": "^1.0.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.1",
